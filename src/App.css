@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.listTime {
+  color: #9656a1;
+  text-align: left;
+}
+.listMsg {
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+}
+
+.finishItem {
+  text-decoration: line-through;
+  color: #bbbbbb;
+}
+.itemBtn {
+  display: none;
+  height: 100%;
+  align-items: center;
+}
+.item:hover .itemBtn {
+  display: flex;
+}
+
+/*
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
